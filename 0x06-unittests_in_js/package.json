@@ -1,0 +1,28 @@
+{
+  "name": "0x06-unittests_in_js",
+  "version": "1.0.0",
+  "description": "Introduction to Unit Tests in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "check-lint": "lint [0-9]*.js"
+  },
+  "author": "SirJupiter",
+  "license": "Holberton School/ALX",
+  "dependencies": {
+    "jest": "^29.7.0",
+    "express": "^4.21.0"
+  },
+  "devDependencies": {
+    "chai": "^5.1.1",
+    "eslint": "^9.10.0",
+    "globals": "^15.9.0",
+    "mocha": "^10.7.3",
+    "nodemon": "3.1.6",
+    "request": "^2.88.2",
+    "sinon": "^19.0.2",
+    "typescript": "^5.6.2"
+  }
+}
